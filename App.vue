@@ -1,19 +1,15 @@
 <template>
-<div>
-  asdasddsdasdsadasds
-</div>
 </template>
 
 <script>
 export default {
   methods: {
-    print () {
-      console.log('Thien');
+    init () {
+      console.log('My VueJS Application')
     }
   },
   mounted () {
-    console.log('created');
-    this.print()
+    this.init()
   }
 }
 </script>
